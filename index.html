@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João - Apresentação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#viagens">Países</a></li>
+            <li><a href="#link">Link Favorito</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="sobre">João Paulo Rocha de Carvalho</h1>
+
+    <p class="texto">
+        Olá! Meu nome é João, tenho 31 anos e moro em Belo Horizonte, Minas Gerais. Trabalho na área de tecnologia há
+        aproximadamente 5 anos, com foco em desenvolvimento de software. Sou apaixonado por inovação, resolução de
+        problemas e aprender coisas novas todos os dias.
+    </p>
+
+    <h2 id="hobbies">Meus Hobbies</h2>
+    <ul>
+        <li>Atividades físicas: Jiu-Jitsu e academia</li>
+        <li>Jogos online</li>
+        <li>Viajar de moto</li>
+    </ul>
+
+    <img src="https://cdn.pixabay.com/photo/2023/07/26/16/59/men-8151667_1280.jpg" alt="Jiu-Jitsu" class="hobby-img">
+
+    <h2 id="viagens">Países que Quero Visitar</h2>
+    <table>
+        <tr>
+            <th>País</th>
+            <th>Bandeira</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Japan.svg" alt="Japão" width="80">
+            </td>
+        </tr>
+        <tr>
+            <td>Itália</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" alt="Itália" width="80">
+            </td>
+        </tr>
+        <tr>
+            <td>Grécia</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg" alt="Grécia"
+                    width="80"></td>
+        </tr>
+    </table>
+
+    <div id="link" class="favorite-link">
+        <h2>Meu Site Favorito</h2>
+        <div class="link-container">
+            <a href="https://www.tecmundo.com.br" target="_blank" rel="noopener noreferrer">
+
+                <span>TecMundo - Notícias e Artigos sobre Tecnologia</span>
+            </a>
+        </div>
+
+    </div>
+
+    <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+    <p id="mensagem"></p>
+
+    <footer>
+        <p>&copy; 2025 João Paulo Rocha de Carvalho - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
